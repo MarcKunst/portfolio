@@ -36,7 +36,7 @@ export default {
 
  #logo {
      color: #282828;
-     margin: 0 2rem;
+     margin: 0 4rem;
      font-family: Didot;
      font-style: italic;
      font-size: 2rem;
@@ -51,11 +51,11 @@ export default {
      height: 100%;
      right: 0;
      position: absolute;
-     padding: 0;
+     padding: 0 4rem;
  }
 
  .nav-item {
-     margin: 0 2rem;
+     margin: 0 0 0 4rem;
      font-family: Didot;
      font-style: italic;
      

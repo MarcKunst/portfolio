@@ -1,6 +1,6 @@
 <template>
     <div class="title-text-name">
-        <h1>PROJECTS</h1>
+        <h1>ABOUT ME</h1>
         <div class="underline"></div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 <style scoped>
 
 .title-text-name {
-    justify-self: center;
+    justify-self: self-start;
     height: 0rem;
 }
 
