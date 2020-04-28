@@ -3,10 +3,10 @@
         <span id="logo">MK</span>
         <ul>
             <li class="nav-item">
-                <nuxt-link class="nav-item-link" to="#">PROJECTS</nuxt-link>
+                <a class="nav-item-link" href="#" v-scroll-to="'#project-section'">PROJECTS</a>
             </li>
             <li class="nav-item">
-                <nuxt-link class="nav-item-link" to="/about">ABOUT</nuxt-link>
+                <a class="nav-item-link" href="#" v-scroll-to="'#about-section'">ABOUT</a>
             </li>
             <li class="nav-item">
                 <nuxt-link class="nav-item-link" to="#">CONTACT</nuxt-link>
@@ -16,6 +16,11 @@
 </template>
 
 <script>
+var Vue = require('vue');
+var VueScrollTo = require('vue-scrollto');
+
+Vue.use(VueScrollTo)
+
 
 export default {
 
@@ -32,6 +37,7 @@ export default {
      display: flex;
      justify-content: space-between;
      align-items: center;
+     z-index: 2;
  }
 
  #logo {

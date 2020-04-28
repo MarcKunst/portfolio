@@ -1,5 +1,5 @@
 <template>
-    <section id="project-section">
+    <section id="about-section">
         <AboutTitle></AboutTitle>
         <AboutContainer></AboutContainer>
     </section>
@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 
-#project-section {
+#about-section {
     width: 100%;
     height: 110vh;
     display: grid;
