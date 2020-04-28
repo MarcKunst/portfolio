@@ -1,0 +1,17 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "A showcase of my work as a designer and developer",
+  "author": "MarcKunst",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
