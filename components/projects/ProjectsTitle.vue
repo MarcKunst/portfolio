@@ -15,7 +15,7 @@ export default {
 <style scoped>
 
 .title-text-name {
-    margin: 1rem;
+    margin: 1.1rem;
     justify-self: center;
 }
 
