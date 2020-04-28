@@ -25,7 +25,7 @@
         </article>
         <article>
             <h3>THINGS I LIKE</h3>
-            <div class="underline"></div>
+            <div class="underline short"></div>
             <ul>
                 <li>Nintendo</li>
                 <li>Ginger beer</li>
@@ -83,6 +83,10 @@ h3 {
 .medium {
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.short {
+    width: 10rem;
 }
 
 ul {
