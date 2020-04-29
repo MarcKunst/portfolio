@@ -9,18 +9,13 @@
                 <a class="nav-item-link" href="#" v-scroll-to="'#about-section'">ABOUT</a>
             </li>
             <li class="nav-item">
-                <nuxt-link class="nav-item-link" to="#">CONTACT</nuxt-link>
+                <a class="nav-item-link" href="#" v-scroll-to="'#contact-section'">CONTACT</a>
             </li>
         </ul>
     </nav>
 </template>
 
 <script>
-var Vue = require('vue');
-var VueScrollTo = require('vue-scrollto');
-
-Vue.use(VueScrollTo)
-
 
 export default {
 

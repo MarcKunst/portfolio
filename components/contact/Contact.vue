@@ -1,5 +1,5 @@
 <template>
-    <section id="project-section">
+    <section id="contact-section">
         <ContactTitle></ContactTitle>
         <ContactContainer></ContactContainer>
     </section>
@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 
-#project-section {
+#contact-section {
     width: 100%;
     height: 90vh;
     display: grid;
