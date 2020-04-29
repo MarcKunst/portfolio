@@ -49,7 +49,7 @@ h1 {
 
 .underline {
     height: 2px;
-    width: 21rem;
+    width: 17rem;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
 

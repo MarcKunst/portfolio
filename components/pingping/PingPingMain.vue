@@ -32,6 +32,43 @@
                 </p>
             </article>
         </section>
+        <section id="core-feature">
+            <article>
+                <h3 class="feature-headers">THE CORE FEATURE</h3>
+                <div class="core-line"></div>
+                <p>We came up with the idea to develop an app in which young people follow a route in which they get their affairs in order. Step by step, the young people are helped with applying for health insurance, care allowance and opening a bank account.</p>
+                <br>
+                <p>The route to be followed is not the same for everyone. That's why we added a short questionnaire at the beginning of the app. Based on the questionnaire, a personal route is created for the user.</p>
+            </article>
+            <img class="screen-img" src="../../assets/images/questionair.png" alt="image of pingping questionair">
+            <img class="screen-img" src="../../assets/images/route.png" alt="image of personalized route">
+        </section>
+        <section id="helping">
+            <img class="screen-img" src="../../assets/images/bank account.png" alt="How to sign up for a bank account">
+            <img class="screen-img" src="../../assets/images/tips.png" alt="tips">
+            <article>
+                <h3 class="feature-headers">HELPING THE USER</h3>
+                <div class="core-line"></div>
+                <p>Each step on the route has a detailed explanation of the subject. Also, with every step there is a video explaining how the user can complete this task.</p>
+                <br>
+                <p>We also gave tips on how to save money or to gain insight into their finances.</p>
+            </article>
+        </section>
+        <section id="core-feature">
+            <article>
+                <h3 class="feature-headers">THE REWARD SYSTEM</h3>
+                <div class="core-line"></div>
+                <p>We have added a reward system to ensure that the young people complete all the tasks on the route. The user receives points for every task that is performed. These points can be redeemed for real life rewards. For example, a day at the zoo.
+                </p>
+            </article>
+            <img class="screen-img" src="../../assets/images/zoo.png" alt="zoo reward">
+            <img class="screen-img" src="../../assets/images/reward.png" alt="earning credits">
+        </section>
+        <section id="button-wrapper">
+            <a id="view-project-button" href="https://pingping.amsterdam.nl/" target="blank">
+                View project
+            </a>
+        </section>
     </section>
 </template>
 
@@ -56,6 +93,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
+    margin-bottom: 3rem;
 }
 
 #assignment {
@@ -63,6 +101,32 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
+}
+
+#core-feature {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr;
+    justify-items: end;
+    column-gap: 4rem;
+    row-gap: 4rem;
+    margin-top: 8rem;
+}
+
+#helping {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 40%;
+    justify-items: start;
+    column-gap: 4rem;
+    row-gap: 4rem;
+    margin-top: 8rem;
+}
+
+.screen-img {
+    width: 75%;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgb(163, 163, 163);
+    
 }
 
 article {
@@ -79,6 +143,10 @@ h3 {
     font-weight: 100;
     padding-left: 0.15rem;
     padding-top: 3rem;
+}
+
+.feature-headers {
+    padding-top: 0rem;
 }
 
 .role-line {
@@ -102,6 +170,13 @@ h3 {
     margin: 0rem 0 1rem; 
 }
 
+.core-line {
+    height: 1px;
+    width: 15rem;
+    background-color: #DDA681;
+    margin: 0rem 0 1rem; 
+}
+
 .medium {
     font-weight: 500;
     font-size: 1.1rem;
@@ -115,4 +190,29 @@ ul {
     padding: 0;
     list-style: none;
 }
+
+#button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#view-project-button {
+    width: 15rem;
+    height: 4rem;
+    background-color: #DDA681;
+    border: 2px solid #fdfdfd;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fdfdfd;
+    font-weight: 500;
+    transition: background-color 200ms;
+}
+
+#view-project-button:hover {
+    background-color: rgb(202, 141, 100);
+}
+
 </style>

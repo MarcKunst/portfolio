@@ -52,7 +52,6 @@ h1 {
     width: 21rem;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
-
 }
 
 h2 {

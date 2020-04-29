@@ -66,12 +66,16 @@ export default {
     height: 100%;
     display: grid;
     row-gap: 2.5rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(20rem, 1fr) );
     column-gap: 2.5rem;
 }
 
 .project-article {
     text-decoration: none;
+}
+
+.project-article:hover > article {
+    box-shadow: 0rem 0.7rem 1rem 0rem rgb(105, 105, 105);
 }
 
 article {
@@ -80,6 +84,8 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgb(163, 163, 163);
+    transition: box-shadow 300ms;
 }
 
 h3 {
@@ -89,6 +95,7 @@ h3 {
     font-weight: 100;
     padding-left: 0.15rem;
     color: #fdfdfd;
+    width: 100%;
 }
 
 .job-desc {
