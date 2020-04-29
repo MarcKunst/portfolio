@@ -1,41 +1,53 @@
 <template>
     <section id="project-container">
-        <article id="pingping">
-            <h3>PING PING</h3>
-            <div class="underline pingping-line"></div>
-            <p class="job-desc">UX Design | UI design</p>
-            <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
-        </article>
-        <article id="stubu">
-            <h3>STUBU</h3>
-            <div class="underline stubu-line"></div>
-            <p class="job-desc">Development</p>
-            <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
-        </article>
-        <article id="fabschoolino">
-            <h3>FABSCHOOLINO</h3>
-            <div class="underline fabschoolino-line"></div>
-            <p class="job-desc">Webdesign | Engineering</p>
-            <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
-        </article>
-        <article id="puma">
-            <h3>PUMA</h3>
-            <div class="underline puma-line"></div>
-            <p class="job-desc">UI design</p>
-            <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
-        </article>
-        <article id="stickyricky">
-            <h3>STICKY RICKY</h3>
-            <div class="underline ricky-line"></div>
-            <p class="job-desc">Gamedesign | Development</p>
-            <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
-        </article>
-        <article id="lift">
-            <h3>LIFT</h3>
-            <div class="underline lift-line"></div>
-            <p class="job-desc">UX Design | UI Design</p>
-            <p class="info">With a group we made an app that allows young people with mild disabilities to come into contact with each other.</p>
-        </article>
+        <nuxt-link class="project-article" to="/pingping">
+            <article id="pingping">
+                <h3>PING PING</h3>
+                <div class="underline pingping-line"></div>
+                <p class="job-desc">UX Design | UI design</p>
+                <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
+            </article>
+        </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="stubu">
+                <h3>STUBU</h3>
+                <div class="underline stubu-line"></div>
+                <p class="job-desc">Development</p>
+                <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
+            </article>
+        </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="fabschoolino">
+                <h3>FABSCHOOLINO</h3>
+                <div class="underline fabschoolino-line"></div>
+                <p class="job-desc">Webdesign | Engineering</p>
+                <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
+            </article>
+        </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="puma">
+                <h3>PUMA</h3>
+                <div class="underline puma-line"></div>
+                <p class="job-desc">UI design</p>
+                <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
+            </article>
+        </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="stickyricky">
+                <h3>STICKY RICKY</h3>
+                <div class="underline ricky-line"></div>
+                <p class="job-desc">Gamedesign | Development</p>
+                <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
+            </article>
+        </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="lift">
+                <h3>LIFT</h3>
+                <div class="underline lift-line"></div>
+                <p class="job-desc">UX Design | UI Design</p>
+                <p class="info">With a group we made an app that allows young people with mild disabilities to come into contact with each other.</p>
+            </article>
+        </nuxt-link>
     </section>
 </template>
 
@@ -58,7 +70,12 @@ export default {
     column-gap: 2.5rem;
 }
 
+.project-article {
+    text-decoration: none;
+}
+
 article {
+    height: 100%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
