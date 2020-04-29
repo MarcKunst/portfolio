@@ -21,7 +21,7 @@ export default {
 
 section {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url(../../assets/images/bg.jpg);
     background-position: center;
     background-size: cover;
