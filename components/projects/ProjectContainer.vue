@@ -59,7 +59,6 @@ export default {
 }
 
 article {
-    background-color: rgb(0, 0, 0);
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -94,42 +93,67 @@ h3 {
 }
 
 #pingping {
-    background-image: url(../../assets/images/pingping.jpg);
-    background-position: bottom;
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),
+    url(../../assets/images/pingping.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #stubu {
-    background-image: url(../../assets/images/stubu.jpg);
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),
+    url(../../assets/images/stubu.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #fabschoolino {
-    background-image: url(../../assets/images/fabschoolino.jpg);
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),url(../../assets/images/fabschoolino.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #puma {
-    background-image: url(../../assets/images/puma.jpg);
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),url(../../assets/images/puma.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #stickyricky {
-    background-image: url(../../assets/images/stickyricky.jpg);
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),url(../../assets/images/stickyricky.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #lift {
-    background-image: url(../../assets/images/lift.jpg);
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),url(../../assets/images/lift.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;

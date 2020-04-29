@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="header-section">
         <Navigation></Navigation>
         <Title></Title>
     </section>

@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <span id="logo">MK</span>
+        <a id="logo" href="#" v-scroll-to="'#header-section'">MK</a>
         <ul>
             <li class="nav-item">
                 <a class="nav-item-link" href="#" v-scroll-to="'#project-section'">PROJECTS</a>
@@ -41,6 +41,7 @@ export default {
      font-family: Didot;
      font-style: italic;
      font-size: 2rem;
+     text-decoration: none;
  }
 
  ul {
