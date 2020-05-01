@@ -1,6 +1,6 @@
 <template>
-    <section id="project-container">
-        <nuxt-link class="project-article" to="/pingping">
+    <section id="snippets-container">
+        <nuxt-link class="snippets-article" to="/pingping">
             <article id="pingping">
                 <h3>PING PING</h3>
                 <div class="underline pingping-line"></div>
@@ -8,7 +8,7 @@
                 <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="snippets-article" to="#">
             <article id="stubu">
                 <h3>STUBU</h3>
                 <div class="underline stubu-line"></div>
@@ -16,7 +16,7 @@
                 <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="snippets-article" to="#">
             <article id="fabschoolino">
                 <h3>FABSCHOOLINO</h3>
                 <div class="underline fabschoolino-line"></div>
@@ -24,7 +24,7 @@
                 <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="snippets-article" to="#">
             <article id="puma">
                 <h3>PUMA</h3>
                 <div class="underline puma-line"></div>
@@ -32,7 +32,7 @@
                 <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="snippets-article" to="#">
             <article id="stickyricky">
                 <h3>STICKY RICKY</h3>
                 <div class="underline ricky-line"></div>
@@ -40,7 +40,7 @@
                 <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="snippets-article" to="#">
             <article id="lift">
                 <h3>LIFT</h3>
                 <div class="underline lift-line"></div>
@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 
-#project-container {
+#snippets-container {
     width: 100%;
     height: 100%;
     display: grid;
@@ -70,11 +70,11 @@ export default {
     column-gap: 2.5rem;
 }
 
-.project-article {
+.snippets-article {
     text-decoration: none;
 }
 
-.project-article:hover > article {
+.snippets-article:hover > article {
     box-shadow: 0rem 0.7rem 1rem 0rem rgb(105, 105, 105);
 }
 

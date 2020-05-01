@@ -1,6 +1,6 @@
 <template>
     <div class="title-text-name">
-        <h1>PROJECTS</h1>
+        <h1>SNIPPETS</h1>
         <div class="underline"></div>
     </div>
 </template>

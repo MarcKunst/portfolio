@@ -1,25 +1,25 @@
 <template>
-    <section id="project-section">
-        <ProjectsTitle></ProjectsTitle>
-        <ProjectContainer></ProjectContainer>
+    <section id="snippets-section">
+        <SnippetsTitle></SnippetsTitle>
+        <SnippetsContainer></SnippetsContainer>
     </section>
 </template>
 
 <script>
-import ProjectsTitle from '~/components/projects/ProjectsTitle.vue'
-import ProjectContainer from '~/components/projects/ProjectContainer.vue'
+import SnippetsTitle from '~/components/snippets/SnippetsTitle.vue'
+import SnippetsContainer from '~/components/snippets/SnippetsContainer.vue'
 
 export default {
   components: {
-      ProjectsTitle,
-      ProjectContainer
+       SnippetsTitle,
+       SnippetsContainer
   }
 }
 </script>
 
 <style scoped>
 
-#project-section {
+#snippets-section {
     width: 100%;
     background-color: #fdfdfd;
     display: grid;

@@ -10,6 +10,10 @@
                 <div class="underline"></div>
             </li>
             <li class="nav-item">
+                <a class="nav-item-link" href="#" v-scroll-to="'#project-section'">SNIPPETS</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-item">
                 <a class="nav-item-link" href="#" v-scroll-to="'#about-section'">ABOUT</a>
                 <div class="underline"></div>
             </li>
