@@ -1,51 +1,31 @@
 <template>
     <section id="snippets-container">
-        <nuxt-link class="snippets-article" to="/pingping">
-            <article id="pingping">
-                <h3>PING PING</h3>
-                <div class="underline pingping-line"></div>
-                <p class="job-desc">UX Design | UI design</p>
-                <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
+        <nuxt-link class="snippets-article" to="/sprite-animation">
+            <article id="sprite-animation">
+                <h3>SPRITE ANIMATION</h3>
+                <div class="underline sprite-animation-line"></div>
+                <p class="job-desc">Design | Animation</p>
             </article>
         </nuxt-link>
         <nuxt-link class="snippets-article" to="#">
-            <article id="stubu">
-                <h3>STUBU</h3>
-                <div class="underline stubu-line"></div>
-                <p class="job-desc">Development</p>
-                <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
+            <article id="data-vis">
+                <h3>DATA VISUALIZATIONS</h3>
+                <div class="underline data-vis-line"></div>
+                <p class="job-desc">Functional programming</p>
             </article>
         </nuxt-link>
         <nuxt-link class="snippets-article" to="#">
-            <article id="fabschoolino">
-                <h3>FABSCHOOLINO</h3>
-                <div class="underline fabschoolino-line"></div>
-                <p class="job-desc">Webdesign | Engineering</p>
-                <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
+            <article id="modeling">
+                <h3>3D SCENE</h3>
+                <div class="underline modeling-line"></div>
+                <p class="job-desc">3D modeling</p>
             </article>
         </nuxt-link>
         <nuxt-link class="snippets-article" to="#">
-            <article id="puma">
-                <h3>PUMA</h3>
-                <div class="underline puma-line"></div>
-                <p class="job-desc">UI design</p>
-                <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
-            </article>
-        </nuxt-link>
-        <nuxt-link class="snippets-article" to="#">
-            <article id="stickyricky">
-                <h3>STICKY RICKY</h3>
-                <div class="underline ricky-line"></div>
-                <p class="job-desc">Gamedesign | Development</p>
-                <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
-            </article>
-        </nuxt-link>
-        <nuxt-link class="snippets-article" to="#">
-            <article id="lift">
-                <h3>LIFT</h3>
-                <div class="underline lift-line"></div>
-                <p class="job-desc">UX Design | UI Design</p>
-                <p class="info">With a group we made an app that allows young people with mild disabilities to come into contact with each other.</p>
+            <article id="boardgame">
+                <h3>BOARDGAME</h3>
+                <div class="underline boardgame-line"></div>
+                <p class="job-desc">UX Design | Makerslab</p>
             </article>
         </nuxt-link>
     </section>
@@ -66,7 +46,7 @@ export default {
     height: 100%;
     display: grid;
     row-gap: 2.5rem;
-    grid-template-columns: repeat( auto-fill, minmax(20rem, 1fr) );
+    grid-template-columns: repeat( auto-fill, minmax(15rem, 1fr) );
     column-gap: 2.5rem;
 }
 
@@ -79,7 +59,7 @@ export default {
 }
 
 article {
-    height: 25rem;
+    height: 20rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -91,7 +71,7 @@ article {
 h3 {
     font-family: Didot;
     font-style: italic;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 100;
     padding-left: 0.15rem;
     color: #fdfdfd;
@@ -100,7 +80,7 @@ h3 {
 
 .job-desc {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     font-weight: 500;
     color: #fdfdfd;
@@ -116,7 +96,7 @@ h3 {
     text-align: justify;
 }
 
-#pingping {
+#sprite-animation {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
@@ -127,7 +107,7 @@ h3 {
     background-repeat: no-repeat;
 }
 
-#stubu {
+#data-vis {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
@@ -139,7 +119,7 @@ h3 {
     background-repeat: no-repeat;
 }
 
-#fabschoolino {
+#modeling {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
@@ -150,34 +130,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
-#puma {
+#boardgame {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
     rgba(15, 15, 15, 0.795)
-    ),url(../../assets/images/puma.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#stickyricky {
-    background: 
-    linear-gradient(
-    rgba(0, 0, 0, 0), 
-    rgba(15, 15, 15, 0.795)
-    ),url(../../assets/images/stickyricky.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#lift {
-    background: 
-    linear-gradient(
-    rgba(0, 0, 0, 0), 
-    rgba(15, 15, 15, 0.795)
-    ),url(../../assets/images/lift.jpg);
+    ),url(../../assets/images/fabschoolino.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,28 +148,20 @@ h3 {
     margin: 0rem 0 1rem;
 }
 
-.pingping-line {
+.sprite-animation-line {
+    width: 6rem;
+}
+
+.data-vis-line {
+    width: 10rem;
+}
+
+.modeling-line {
+    width: 5rem;
+}
+
+.boardgame-line {
     width: 8rem;
-}
-
-.stubu-line {
-    width: 4.5rem;
-}
-
-.fabschoolino-line {
-    width: 13rem;
-}
-
-.puma-line {
-    width: 4rem;
-}
-
-.ricky-line {
-    width: 11rem;
-}
-
-.lift-line {
-    width: 3rem;
 }
 
 </style>

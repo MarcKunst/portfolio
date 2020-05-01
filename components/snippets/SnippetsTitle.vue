@@ -1,7 +1,10 @@
 <template>
     <div class="title-text-name">
-        <h1>SNIPPETS</h1>
-        <div class="underline"></div>
+        <div id="title-wrapper">
+            <h1>SNIPPETS</h1>
+            <div class="underline"></div>
+        </div>
+        <h2>These snippets are a mix of smaller and/or homemade projects</h2>
     </div>
 </template>
 
@@ -17,6 +20,12 @@ export default {
 .title-text-name {
     justify-self: center;
     margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-wrapper {
+    align-self: center;
 }
 
 h1 {
@@ -35,6 +44,16 @@ h1 {
     background-color: #DDA681;
     margin: -0.3rem 0;
 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    width: 30rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 </style>
