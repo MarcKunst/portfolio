@@ -2,11 +2,8 @@
     <div id="title">
         <div class="title-text">
             <div class="title-text-name">
-                <h1>STICKY RICKY</h1>
+                <h1>SPRITE ANIMATION</h1>
                 <div class="underline"></div>
-            </div>
-            <div class="title-text-sub">
-                <h2>“Designing and developing a 2D platformer."</h2>
             </div>
         </div>
     </div>
@@ -56,7 +53,7 @@ h1 {
 
 .underline {
     height: 2px;
-    width: 80%;
+    max-width: 80%;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
 

@@ -1,6 +1,6 @@
 <template>
     <section id="snippets-container">
-        <nuxt-link class="snippets-article" to="/sprite-animation">
+        <nuxt-link class="snippets-article" to="/animation">
             <article id="sprite-animation">
                 <h3>SPRITE ANIMATION</h3>
                 <div class="underline sprite-animation-line"></div>
@@ -100,10 +100,11 @@ h3 {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
-    rgba(15, 15, 15, 0.795)
+    rgba(15, 15, 15, 0.575)
     ),
-    url(../../assets/images/pingping.jpg);
+    url(../../assets/images/animation-thumb.png);
     background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 

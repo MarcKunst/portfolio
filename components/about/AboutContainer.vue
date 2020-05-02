@@ -1,7 +1,7 @@
 <template>
     <section id="about-container">
         <article>
-            <p class="medium">I'm Marc Kunst, I'm 26 years old and I love to make stuff.</p>
+            <p class="medium">I'm Marc Kunst, I'm 27 years old and I love to make stuff.</p>
             <br>
             <p>I started as a nurse but soon noticed that I needed a job with more creativity. So I decided to become a designer. Through the years I learned to design, code and create all sorts of things. And I love it!</p>
         </article>
