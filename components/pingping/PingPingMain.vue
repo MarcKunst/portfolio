@@ -44,17 +44,17 @@
             <img class="screen-img" src="../../assets/images/route.png" alt="image of personalized route">
         </section>
         <section id="helping">
-            <img class="screen-img" src="../../assets/images/bank account.png" alt="How to sign up for a bank account">
-            <img class="screen-img" src="../../assets/images/tips.png" alt="tips">
-            <article>
+                <article>
                 <h3 class="feature-headers">HELPING THE USER</h3>
                 <div class="core-line"></div>
                 <p>Each step on the route has a detailed explanation of the subject. Also, with every step there is a video explaining how the user can complete this task.</p>
                 <br>
                 <p>We also gave tips on how to save money or to gain insight into their finances.</p>
             </article>
+            <img class="screen-img" src="../../assets/images/bank account.png" alt="How to sign up for a bank account">
+            <img class="screen-img" src="../../assets/images/tips.png" alt="tips">
         </section>
-        <section id="core-feature">
+        <section id="reward">
             <article>
                 <h3 class="feature-headers">THE REWARD SYSTEM</h3>
                 <div class="core-line"></div>
@@ -91,7 +91,7 @@ export default {
 #role {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
     column-gap: 4rem;
     margin-bottom: 3rem;
 }
@@ -99,15 +99,15 @@ export default {
 #assignment {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
     column-gap: 4rem;
 }
 
 #core-feature {
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 1fr 1fr;
-    justify-items: end;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: center;
     column-gap: 4rem;
     row-gap: 4rem;
     margin-top: 8rem;
@@ -116,15 +116,25 @@ export default {
 #helping {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 40%;
-    justify-items: start;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: center;
+    column-gap: 4rem;
+    row-gap: 4rem;
+    margin-top: 8rem;
+}
+
+#reward {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: center;
     column-gap: 4rem;
     row-gap: 4rem;
     margin-top: 8rem;
 }
 
 .screen-img {
-    width: 75%;
+    width: 15rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgb(163, 163, 163);
     
 }
