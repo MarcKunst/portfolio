@@ -21,7 +21,7 @@
                 <p class="job-desc">3D modeling</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="snippets-article" to="#">
+        <nuxt-link class="snippets-article" to="/boardgame">
             <article id="boardgame">
                 <h3>BOARDGAME</h3>
                 <div class="underline boardgame-line"></div>
@@ -136,7 +136,7 @@ h3 {
     linear-gradient(
     rgba(0, 0, 0, 0), 
     rgba(15, 15, 15, 0.795)
-    ),url(../../assets/images/fabschoolino.jpg);
+    ),url(../../assets/images/boardgame-thumb.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
