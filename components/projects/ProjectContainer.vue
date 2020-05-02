@@ -8,7 +8,7 @@
                 <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/stubu">
             <article id="stubu">
                 <h3>STUBU</h3>
                 <div class="underline stubu-line"></div>
