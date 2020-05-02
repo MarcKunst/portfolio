@@ -91,7 +91,7 @@ export default {
 #role {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
     margin-bottom: 3rem;
 }
@@ -99,7 +99,7 @@ export default {
 #assignment {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
 }
 

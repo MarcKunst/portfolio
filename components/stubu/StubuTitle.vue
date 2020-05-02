@@ -2,11 +2,11 @@
     <div id="title">
         <div class="title-text">
             <div class="title-text-name">
-                <h1>PING PING</h1>
+                <h1>STUBU</h1>
                 <div class="underline"></div>
             </div>
             <div class="title-text-sub">
-                <h2>“Designing a product that helps young people stay out of debt."</h2>
+                <h2>“Provides students insight into their student debt."</h2>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ h1 {
 
 .underline {
     height: 2px;
-    width: 17rem;
+    width: 10rem;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
 
