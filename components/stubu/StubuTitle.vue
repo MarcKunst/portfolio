@@ -38,7 +38,7 @@ export default {
     flex-direction: column;
 }
 
-.title-text-name {
+.title-text-name, .title-text-sub {
     align-self: center;
 
 }

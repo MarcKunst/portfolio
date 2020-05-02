@@ -2,11 +2,11 @@
     <div id="title">
         <div class="title-text">
             <div class="title-text-name">
-                <h1>PING PING</h1>
+                <h1>FABSCHOOLINO</h1>
                 <div class="underline"></div>
             </div>
             <div class="title-text-sub">
-                <h2>“Designing a product that helps young people stay out of debt."</h2>
+                <h2>“How to introduce kids to engineering."</h2>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@ export default {
     flex-direction: column;
 }
 
-.title-text-name, .title-text-sub {
+.title-text-name, .title-text-sub{
     align-self: center;
 
 }
@@ -56,7 +56,7 @@ h1 {
 
 .underline {
     height: 2px;
-    width: 17rem;
+    width: 25rem;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
 

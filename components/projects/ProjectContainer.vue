@@ -16,7 +16,7 @@
                 <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/fabschoolino">
             <article id="fabschoolino">
                 <h3>FABSCHOOLINO</h3>
                 <div class="underline fabschoolino-line"></div>
