@@ -7,14 +7,14 @@
                 <p class="job-desc">Design | Animation</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="snippets-article" to="#">
+        <nuxt-link class="snippets-article" to="/datavis">
             <article id="data-vis">
-                <h3>DATA VISUALIZATIONS</h3>
+                <h3>DATA VISUALIZATION</h3>
                 <div class="underline data-vis-line"></div>
                 <p class="job-desc">Functional programming</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="snippets-article" to="#">
+        <nuxt-link class="snippets-article" to="/modeling">
             <article id="modeling">
                 <h3>3D SCENE</h3>
                 <div class="underline modeling-line"></div>
@@ -112,9 +112,9 @@ h3 {
     background: 
     linear-gradient(
     rgba(0, 0, 0, 0), 
-    rgba(15, 15, 15, 0.795)
+    rgba(15, 15, 15, 0.89)
     ),
-    url(../../assets/images/stubu.jpg);
+    url(../../assets/images/data-vis-thumb.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ h3 {
     linear-gradient(
     rgba(0, 0, 0, 0), 
     rgba(15, 15, 15, 0.795)
-    ),url(../../assets/images/fabschoolino.jpg);
+    ),url(../../assets/images/3d-monster.png);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
