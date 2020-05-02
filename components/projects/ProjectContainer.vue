@@ -40,7 +40,7 @@
                 <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/lift">
             <article id="lift">
                 <h3>LIFT</h3>
                 <div class="underline lift-line"></div>
