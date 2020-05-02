@@ -24,7 +24,7 @@
                 <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/puma">
             <article id="puma">
                 <h3>PUMA</h3>
                 <div class="underline puma-line"></div>
