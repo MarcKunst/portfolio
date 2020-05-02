@@ -32,7 +32,7 @@
                 <p class="info">I worked on a data visualization to see how much steel and copper there is in the foundations of buildings in the Netherlands.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/stickyricky">
             <article id="stickyricky">
                 <h3>STICKY RICKY</h3>
                 <div class="underline ricky-line"></div>
