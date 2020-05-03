@@ -16,7 +16,7 @@ export default {
 
 .title-text-name {
     justify-self: self-start;
-    height: 0rem;
+    margin-bottom: 4rem;
 }
 
 h1 {

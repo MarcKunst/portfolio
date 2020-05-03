@@ -72,4 +72,29 @@ h2 {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+
+    .title-text {
+    padding-left: 0rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding-left: 0.25rem;
+    }
+
+    .underline {
+        width: 6rem;
+        height: 1px;
+        margin: -0.4rem 0 0.8rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+
 </style>

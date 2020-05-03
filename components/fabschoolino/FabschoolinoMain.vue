@@ -227,4 +227,26 @@ ul {
     background-color: rgb(202, 141, 100);
 }
 
+@media (max-width: 768px) {
+    #role {
+        grid-template-columns: 1fr;
+    }
+
+    #assignment {
+        grid-template-columns: 1fr;
+    }
+
+    #concept-part-1{
+        grid-template-columns: 1fr;
+    }
+
+    #concept-part-2{
+        grid-template-columns: 1fr;
+    }
+
+    #concept-part-3{
+        grid-template-columns: 1fr;
+    }
+}
+
 </style>

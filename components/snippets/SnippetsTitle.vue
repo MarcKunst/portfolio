@@ -56,4 +56,10 @@ h2 {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+    h2 {
+        width: 100%;
+    }
+}
+
 </style>

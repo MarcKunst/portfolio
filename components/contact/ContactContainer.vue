@@ -1,5 +1,5 @@
 <template>
-    <section id="about-container">
+    <section id="contact-container">
         <article id="contact-text">
             <p class="medium">Thanks for scrolling all the way down. You can get in contact with me by mailing me or by becoming a connection on LinkedIn ;)</p>
         </article>
@@ -10,7 +10,7 @@
             <br>
             <h3>SOCIAL</h3>
             <div class="underline middle"></div>
-            <p><a href="https://www.linkedin.com/in/marc-kunst-917a4495">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/marc-kunst-917a4495" target="blank">LinkedIn</a></p>
         </article>
     </section>
 </template>
@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 
-#about-container {
+#contact-container {
     width: 100%;
     height: 100%;
     display: grid;
@@ -77,6 +77,16 @@ h3 {
 a {
     text-decoration: none;
     color: #fdfdfd;
+}
+
+@media (max-width: 768px) {
+    #contact-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 4rem;
+    }
 }
 
 </style>

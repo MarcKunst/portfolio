@@ -68,4 +68,31 @@ h2 {
     margin: 0 0 0 -2rem;
 }
 
+@media (max-width: 768px) {
+
+    #profile-pic {
+    visibility: hidden;
+    width: 0rem;
+    }
+
+    .title-text {
+    padding-left: 0rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding-left: 0.25rem;
+    }
+
+    .underline {
+        width: 14rem;
+        height: 1px;
+        margin: -0.4rem 0 0.8rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
 </style>

@@ -21,7 +21,6 @@ export default {
 
 #about-section {
     width: 100%;
-    height: 110vh;
     display: grid;
     grid-template-rows: 30% 70%;
     background-color: #fdfdfd;

@@ -93,4 +93,14 @@ ul {
     padding: 0;
     list-style: none;
 }
+
+@media (max-width: 768px) {
+    #about-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 4rem;
+    }
+}
 </style>

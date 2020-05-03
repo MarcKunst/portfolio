@@ -231,4 +231,14 @@ ul {
     background-color: rgb(202, 141, 100);
 }
 
+@media (max-width: 768px) {
+    #role {
+        grid-template-columns: 1fr;
+    }
+
+    #assignment {
+    grid-template-columns: 1fr;
+    }
+}
+
 </style>
