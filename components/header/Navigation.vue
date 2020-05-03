@@ -172,7 +172,7 @@ export default {
 
   #upper-nav {
       display: flex;
-      flex-direction: row
+      flex-direction: row;
   }
 
   #chkToggle {
