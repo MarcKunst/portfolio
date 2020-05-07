@@ -98,7 +98,7 @@ export default {
 .navbar-toggle {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 0px;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
