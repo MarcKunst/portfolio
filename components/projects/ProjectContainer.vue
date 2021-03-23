@@ -8,6 +8,14 @@
                 <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
             </article>
         </nuxt-link>
+        <nuxt-link class="project-article" to="#">
+            <article id="pip">
+                <h3>PIP</h3>
+                <div class="underline pip-line"></div>
+                <p class="job-desc">UX Design | UI design</p>
+                <p class="info">This app helps immigrants with their integration process. This app has a strong emphasis on accessibility.</p>
+            </article>
+        </nuxt-link>
         <nuxt-link class="project-article" to="/stubu">
             <article id="stubu">
                 <h3>STUBU</h3>
@@ -20,7 +28,7 @@
             <article id="fabschoolino">
                 <h3>FABSCHOOLINO</h3>
                 <div class="underline fabschoolino-line"></div>
-                <p class="job-desc">Webdesign | Engineering</p>
+                <p class="job-desc">Web design | Engineering</p>
                 <p class="info">I carried out this project during my internship at Waag Society. We gave arduino worshops with children.</p>
             </article>
         </nuxt-link>
@@ -36,7 +44,7 @@
             <article id="stickyricky">
                 <h3>STICKY RICKY</h3>
                 <div class="underline ricky-line"></div>
-                <p class="job-desc">Gamedesign | Development</p>
+                <p class="job-desc">Game design | Development</p>
                 <p class="info">I made a 2D platformer in Unity in which the player has to stick to the walls to finish the game.</p>
             </article>
         </nuxt-link>
@@ -139,6 +147,18 @@ h3 {
     background-repeat: no-repeat;
 }
 
+#pip {
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0), 
+    rgba(15, 15, 15, 0.795)
+    ),
+    url(../../assets/images/pip.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #fabschoolino {
     background: 
     linear-gradient(
@@ -196,6 +216,10 @@ h3 {
 
 .stubu-line {
     width: 4.5rem;
+}
+
+.pip-line {
+    width: 2rem;
 }
 
 .fabschoolino-line {

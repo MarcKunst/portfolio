@@ -8,7 +8,7 @@
         <article>
             <p>In my free time I like to game, play guitar and recently I started to develop my own video game.</p>
             <br>
-            <p>Currently I study Communication and Multimedia Design at the University of Applied Sciences. I'm in the middle of my minor Applied Game Design.
+            <p>Currently I am working on my graduation project at the municipality of Amsterdam. Where I work on PIP as a UX designer.
             </p>
         </article>
         <article>
@@ -16,11 +16,12 @@
             <div class="underline"></div>
             <ul>
                 <li>Sketch</li>
-                <li>Nuxt.js</li>
+                <li>Figma</li>
+                <li>Invision Studio</li>
                 <li>Adobe CC</li>
                 <li>Unity</li>
                 <li>VS Code</li>
-                <li>Aseprite</li>
+                <li>Nuxt.js</li>
             </ul>
         </article>
         <article>
@@ -33,6 +34,7 @@
                 <li>Marvel</li>
                 <li>Robin Williams</li>
                 <li>Domino day</li>
+                <li>Playing on my ukelele</li>
             </ul>
         </article>
     </section>

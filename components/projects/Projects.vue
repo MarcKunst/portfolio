@@ -24,10 +24,10 @@ export default {
     background-color: #fdfdfd;
     display: grid;
     padding: 4rem 4rem;
-    background-image: url(../../assets/images/project-bg.png);
+    /* background-image: url(../../assets/images/project-bg.png);
     background-position: bottom;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 
 }
 
