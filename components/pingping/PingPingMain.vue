@@ -40,8 +40,8 @@
                 <br>
                 <p>The route to be followed is not the same for everyone. That's why we added a short questionnaire at the beginning of the app. Based on the questionnaire, a personal route is created for the user.</p>
             </article>
-            <img class="screen-img" src="../../assets/images/questionair.png" alt="image of pingping questionair">
-            <img class="screen-img" src="../../assets/images/route.png" alt="image of personalized route">
+            <img class="screen-img" src="../../assets/images/introductie-1.jpg" alt="image of pingping questionair">
+            <img class="screen-img" src="../../assets/images/Overzichtspagina.jpg" alt="image of personalized route">
         </section>
         <section id="helping">
                 <article>
@@ -51,8 +51,8 @@
                 <br>
                 <p>We also gave tips on how to save money or to gain insight into their finances.</p>
             </article>
-            <img class="screen-img" src="../../assets/images/bank account.png" alt="How to sign up for a bank account">
-            <img class="screen-img" src="../../assets/images/tips.png" alt="tips">
+            <img class="screen-img" src="../../assets/images/R1_bankrekening.jpg" alt="How to sign up for a bank account">
+            <img class="screen-img" src="../../assets/images/R1_Zorgverzekering_geen_video_beschikbaar.jpg" alt="tips">
         </section>
         <section id="reward">
             <article>
@@ -61,8 +61,8 @@
                 <p>We have added a reward system to ensure that the young people complete all the tasks on the route. The user receives points for every task that is performed. These points can be redeemed for real life rewards. For example, a day at the zoo.
                 </p>
             </article>
-            <img class="screen-img" src="../../assets/images/zoo.png" alt="zoo reward">
-            <img class="screen-img" src="../../assets/images/reward.png" alt="earning credits">
+            <img class="screen-img" src="../../assets/images/Rewards_rewardtab.jpg" alt="zoo reward">
+            <img class="screen-img" src="../../assets/images/Succespage_overview.jpg" alt="earning credits">
         </section>
         <section id="button-wrapper">
             <a id="view-project-button" href="https://pingping.amsterdam.nl/" target="blank">
