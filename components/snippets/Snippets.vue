@@ -23,7 +23,7 @@ export default {
     width: 100%;
     background-color: #fdfdfd;
     display: grid;
-    padding: 4rem 4rem;
+    padding: 4rem 4rem 15rem;
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;

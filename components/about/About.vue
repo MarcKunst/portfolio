@@ -24,7 +24,7 @@ export default {
     display: grid;
     grid-template-rows: 30% 70%;
     background-color: #fdfdfd;
-    padding: 4rem 4rem;
+    padding: 4rem 4rem 10rem;
 
 }
 
