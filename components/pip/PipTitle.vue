@@ -2,11 +2,11 @@
     <div id="title">
         <div class="title-text">
             <div class="title-text-name">
-                <h1>STUBU</h1>
+                <h1>PIP</h1>
                 <div class="underline"></div>
             </div>
             <div class="title-text-sub">
-                <h2>“Provides students insight into their student debt."</h2>
+                <h2>“Helping immigrants with a focus on accessibility"</h2>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ h1 {
 
 .underline {
     height: 2px;
-    width: 80%;
+   max-width: 80%;
     background-color: #DDA681;
     margin: -0.5rem 0 1rem;
 
@@ -84,7 +84,7 @@ h2 {
     }
 
     .underline {
-        width: 6rem;
+        width: 14rem;
         height: 1px;
         margin: -0.4rem 0 0.8rem;
     }
@@ -95,6 +95,5 @@ h2 {
         padding: 0 2rem;
     }
 }
-
 
 </style>

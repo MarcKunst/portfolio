@@ -46,8 +46,9 @@ export default {
     height: 100%;
     display: grid;
     row-gap: 2.5rem;
-    grid-template-columns: repeat( auto-fill, minmax(15rem, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(15rem, 1fr) );
     column-gap: 2.5rem;
+    align-items: center;
 }
 
 .snippets-article {

@@ -34,7 +34,7 @@
                 <li>Marvel</li>
                 <li>Robin Williams</li>
                 <li>Domino day</li>
-                <li>Playing on my ukelele</li>
+                <li>Playing on my ukulele</li>
             </ul>
         </article>
     </section>

@@ -8,20 +8,12 @@
                 <p class="info">An app developed for the municipality of Amsterdam. The app helps young people to stay out of debt.</p>
             </article>
         </nuxt-link>
-        <nuxt-link class="project-article" to="#">
+        <nuxt-link class="project-article" to="/pip">
             <article id="pip">
                 <h3>PIP</h3>
                 <div class="underline pip-line"></div>
                 <p class="job-desc">UX Design | UI design</p>
                 <p class="info">This app helps immigrants with their integration process. This app has a strong emphasis on accessibility.</p>
-            </article>
-        </nuxt-link>
-        <nuxt-link class="project-article" to="/stubu">
-            <article id="stubu">
-                <h3>STUBU</h3>
-                <div class="underline stubu-line"></div>
-                <p class="job-desc">Development</p>
-                <p class="info">An app developed for Nibud. The app is made for students who want to gain insight into their study debt.</p>
             </article>
         </nuxt-link>
         <nuxt-link class="project-article" to="/fabschoolino">

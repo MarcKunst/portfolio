@@ -6,7 +6,7 @@
                 <div class="underline"></div>
             </div>
             <div class="title-text-sub">
-                <h2>Designer | Developer | Maker</h2>
+                <h2>UX/UI Designer | Maker</h2>
             </div>
         </div>
         <img id="profile-pic" src="../../assets/images/marc_profile_purple.png" alt="photo of Marc Kunst" v-lazy-load>

@@ -1,18 +1,18 @@
 <template>
     <section id="header-section">
         <ProjectNav></ProjectNav>
-        <StubuTitle></StubuTitle>
+        <PipTitle></PipTitle>
     </section>
 </template>
 
 <script>
 import ProjectNav from '~/components/header/ProjectNav.vue'
-import StubuTitle from '~/components/stubu/StubuTitle.vue'
+import PipTitle from '~/components/pip/PipTitle.vue'
 
 export default {
   components: {
     ProjectNav,
-    StubuTitle
+    PipTitle
   }
 }
 </script>

@@ -4,15 +4,15 @@
             <article>
                 <h3>MY ROLE</h3>
                 <div class="role-line"></div>
-                <p>For this project I was responsible for the development of the app and the creation of the data visualisties.</p>
+                <p>I am the lead designer of this project. I do user tests, Im researching accessibility patterns, and design the app.</p>
             </article>
             <article>
                 <h3>TOOLS I USED</h3>
                 <div class="tools-line"></div>
                     <ul>
-                        <li>Nuxt.js</li>
-                        <li>Graph.js</li>
-                        <li>VueX</li>
+                        <li>Figma</li>
+                        <li>Invision Studio</li>
+                        <li>Trello</li>
                     </ul>
             </article>
         </section>
@@ -21,50 +21,42 @@
         <div class="assignment-line"></div>
         <section id="assignment">
             <article>
-                <p>Nibud wanted to gain more insights from their dataset of all cost items in the Netherlands. We as students were free to decide for which target group we would make a product based on the dataset. We eventually chose students as the target group.</p>
+                <p>During my internship at the IVLab at the Municipality of Amsterdam I got involved in the project.</p>
+                <br>
+                <p>The purpose of the assignment is to develop a new digital PIP. PIP stands for a personal integration and participation process.</p>
             </article>
-        </section>
-        <section id="loan-feature">
             <article>
-                <h3 class="feature-headers">DEBT INSIGHTS</h3>
-                <div class="loan-line"></div>
-                <p>The app consists of three features that are brought to the students in a narrative way.</p>
+                <p>In this app immigrants can find everything related to their integration process. The immigrant forms his own trajectory together with their manager.</p>
                 <br>
-                <p>First, the student can calculate his or her final study debt. This includes how much the student borrows per month. How long the student has been studying and how long the student plans to study.</p>
-                <br>
-                <p>Every answer in the questionair will be stored. I used VueX for the state management.</p>
-                <br>
-                <p>Ultimately, the student will see the expected study debt, along with the average student debt</p>
-            </article>
-            <img class="screen-img" src="../../assets/images/loan-1.png" alt="image of a questionair to determine loan.">
-            <img class="screen-img" src="../../assets/images/loan-result.png" alt="result of student loan">
-        </section>
-        <section id="budget">
-                <article>
-                <h3 class="feature-headers">BUDGET CALCULATOR</h3>
-                <div class="budget-line"></div>
-                <p>The student is then given the opportunity to calculate his or her own budget. The student can see in a graph which income and expenditure are made.</p>
-                <br>
-                <p>The student also sees the average income and expenditure of other students in the Netherlands. This data is based on the Nibud dataset.</p>
-            </article>
-            <img class="screen-img" src="../../assets/images/budget.png" alt="budget form">
-            <img class="screen-img" src="../../assets/images/budget-graph.png" alt="results of the budget form">
-        </section>
-        <section id="reward">
-            <article>
-                <h3 class="feature-headers">TESTIMONIALS</h3>
-                <div class="loan-line"></div>
-                <p>The last part of the app allows students to listen to personal stories from fellow students. In this example, students talk about their own experiences with their student debt.
+                <p>The app will be used by people of different native languages. Some of the users are also low literate. As a result, there is a great focus on accessibility while designing the app.
                 </p>
             </article>
-            <img class="screen-img" src="../../assets/images/testimonials.png" alt="testimonials">
+        </section>
+        <section id="core-feature">
+            <article>
+                <h3 class="feature-headers">CLARITY</h3>
+                <div class="core-line xshort"></div>
+                <p>The integration process takes three years. That is why it is important for the user to know how he or she is doing. With the overview screen, the user can see where he / she stands in the process.</p>
+                <br>
+                <p>On the events screen, the user can see which important events will soon take place in their process.</p>
+            </article>
+            <img class="screen-img" src="../../assets/images/Overview_location.jpg" alt="image of the overview screen">
+            <img class="screen-img" src="../../assets/images/Events_header_open.jpg" alt="image of the event screen">
+        </section>
+        <section id="helping">
+                <article>
+                <h3 class="feature-headers">PROVIDING INFORMATION</h3>
+                <div class="core-line"></div>
+                <p>Finding the user of any event information. The information is presented in various ways. The user can watch a video, read the text or have the text read aloud.</p>
+                <br>
+                <p>It is also possible to create a checklist for each event. Here the user can keep track of his / her tasks.</p>
+            </article>
+            <img class="screen-img" src="../../assets/images/Event_detail_screen.jpg" alt="How to sign up for a bank account">
+            <img class="screen-img" src="../../assets/images/checklist.jpg" alt="tips">
         </section>
         <section id="button-wrapper">
-            <a id="view-project-button" href="https://stubu.netlify.app/" target="blank">
-                View project
-            </a>
-            <a id="view-project-button" href="https://github.com/MarcKunst/nibud/wiki/State-management" target="blank">
-                Go to Github
+            <a id="view-project-button" href="https://www.figma.com/file/0RyuJDS8Cp1RpvW1UakAv8/Persoonlijke-PIP-prototype?node-id=175%3A0" target="blank">
+                View Figma Designs
             </a>
         </section>
     </section>
@@ -97,11 +89,11 @@ export default {
 #assignment {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
 }
 
-#loan-feature {
+#core-feature {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -111,7 +103,7 @@ export default {
     margin-top: 8rem;
 }
 
-#budget {
+#helping {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
@@ -134,6 +126,7 @@ export default {
 .screen-img {
     width: 15rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgb(163, 163, 163);
+    border-radius: 8px;
     
 }
 
@@ -178,16 +171,9 @@ h3 {
     margin: 0rem 0 1rem; 
 }
 
-.loan-line {
+.core-line {
     height: 1px;
-    width: 11rem;
-    background-color: #DDA681;
-    margin: 0rem 0 1rem; 
-}
-
-.budget-line {
-    height: 1px;
-    width: 16rem;
+    width: 15rem;
     background-color: #DDA681;
     margin: 0rem 0 1rem; 
 }
@@ -199,6 +185,10 @@ h3 {
 
 .short {
     width: 10rem;
+}
+
+.xshort {
+    width: 6rem;
 }
 
 ul {
@@ -224,7 +214,6 @@ ul {
     color: #fdfdfd;
     font-weight: 500;
     transition: background-color 200ms;
-    margin: 0 1rem 0;
 }
 
 #view-project-button:hover {
