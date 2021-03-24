@@ -136,6 +136,7 @@ export default {
 .screen-img {
     width: 15rem;
     box-shadow: 0rem 0.5rem 1rem 0rem rgb(163, 163, 163);
+    border-radius: 8px;
     
 }
 
